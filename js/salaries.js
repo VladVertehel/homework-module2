@@ -15,7 +15,7 @@ let salaries = {
 let valArr = Object.values(salaries);
 let sum = 0;
 for(let i = 0; i <= valArr.length - 1; i++){
-    sum = sum + parseInt(valArr[i]);
+    sum = sum + valArr[i];
 }
 
 if (Object.keys(salaries).length === 0) {
