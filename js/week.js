@@ -27,5 +27,6 @@ while(number < 1 || number > 7 || isNaN(number) || number === null) {
 }
 
 if(number >= 1 && number <= 7){
+    number = Math.floor(number);
     console.log(week[number]);
 }
